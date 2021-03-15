@@ -5,6 +5,7 @@ contract ContractFive {
   uint public myInt;
 
   constructor() public {
+    myInt = 0;
   }
 
   function set(uint newInt) public {
